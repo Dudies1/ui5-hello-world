@@ -1,1 +1,1 @@
-# ui5-hello-world
+Simple Hello World application in SAP UI5.
