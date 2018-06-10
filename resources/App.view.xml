@@ -1,0 +1,30 @@
+<mvc:View
+  controllerName="HelloWorld.App"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+    <Page title="Simple Hello World App"/>
+    <VBox width="100%" alignItems="Stretch">
+		<Button
+			id="helloButton"
+			type="Emphasized"
+			icon="sap-icon://post"
+			text="Say Hello"
+			press="onShowHello"
+			class="sapUiSmallMargin">
+			<layoutData>
+				<FlexItemData alignSelf="Center"/>
+			</layoutData>
+		</Button>
+		<Button
+			id="hideButton"
+			type="Reject"
+			icon="sap-icon://activate"
+			text="Hide Button"
+			press="onHide"
+			class="sapUiSmallMargin">
+			<layoutData>
+				<FlexItemData alignSelf="Center"/>
+			</layoutData>
+		</Button>
+	</VBox>
+</mvc:View>
